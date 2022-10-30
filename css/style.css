@@ -1,0 +1,183 @@
+/*    G l O B A L   */
+body{
+    font-family: "Segoe UI","Roboto",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0;
+
+}
+/* =============================== */
+
+/* left */
+.spinner{
+    z-index: 999999999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+nav{ /* open menu*/
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    z-index: 9999;
+}
+.left-nav{
+    position: absolute;
+    z-index: 9999999;
+    top: 0;
+    bottom: 0;
+    width: 240px;
+    z-index: 9999999;
+}
+.menu-list ul li{
+    cursor: pointer;
+    padding: .8rem;
+    font-weight: 300;
+}.menu-list ul li a{
+    text-decoration: none;
+    color: #f9f6f6;
+}
+.menu-footer{
+    color: #999;
+    position: absolute;
+    top: 85%;
+    font-size: 15px;
+}
+.menu-footer a{
+    text-decoration: none;
+    color: rgba(153, 153, 153,.2);
+    margin-right: 1rem;
+}
+
+
+/*  right  */
+
+.right-nav{
+    position: absolute;
+    left: 240px;
+    width: 60px ;
+    background-color: #f8f6f6 ;
+}
+.right-nav img{
+    position: absolute;
+    left: 50%;
+}
+.right-nav .fa-bars{
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    cursor: pointer;
+}
+.right-nav .fa-xmark{
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    cursor: pointer;
+}
+.right-nav .r-n-b{
+    position: absolute;
+    left: 57%;
+    top: 90%;
+    cursor: pointer;
+}
+/* ======================== */
+
+/* Contact */
+
+/* #contact {
+    width: 60%;
+}
+#contact input{
+    background-color: transparent ;
+    border-style: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    text-align: center;
+    padding: .6rem;
+    margin: 1.4rem  1.4rem .3rem;
+    box-shadow: 0 .5rem 1.5rem rgba(255,255,255,.1),
+    0 .5rem 1.5rem rgba(255,255,255,.1)!important;
+    color: white;
+}
+
+.alert-btn{
+    background-color: #f8d7da;
+    padding: .7rem;
+    margin: 0 1.4rem;
+    color: rgba(114, 28, 36,.6);
+    /* display: none; */
+    
+} */
+
+
+/* ====================== */
+
+/*   S E A R C H   */
+
+#search-pages input{
+    border-style: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+/* ========================= */
+
+/* ========================================== */
+
+#first-page .layer{
+    background-color: rgba(255, 255, 255,.5);
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 1s top;
+}
+#first-page .img:hover .layer{
+    top: 0;
+}
+#first-page .img{
+    cursor: pointer;
+}
+
+/* ==================================== */
+
+/* displayMeal */
+.meal-p{
+    color: lightgray;
+}
+.alert-success{
+    color: #155724;
+    background-color: #d4edda;
+}
+.alert-danger{
+    color: #721c24;
+    background-color: #f8d7da;
+}
+/* ======================================== */
+
+/* displayArea */
+.fa-city{
+    color: #e65a50ab;
+}
+
+.fa-bowl-food {
+    color: #9ee650ab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
